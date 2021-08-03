@@ -9,7 +9,7 @@ ABC.com - Static Website
 		
 
 3. copy the code from git dev branch to New Doc root - git'
-	- https://github.com/mailrahulsre/abc.com.git (dev branch)
+	- https://github.com/mailrahulsre/abc.com.git (dev/master branch)
 	
 4. open httpd.conf and change the doc root to new one which is created 2nd step - remote_file 
 	- timeout 150sec
