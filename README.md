@@ -1,5 +1,21 @@
 # abc.com
 #  This is used to show demo for Chef CookBOOK
+
+ABC.com - Static Website
+
+1. Install apache - package
+
+2. Create a New Doc root - /var/www/html/abc.com - directory
+		
+
+3. copy the code from git dev branch to New Doc root - git'
+	- https://github.com/mailrahulsre/abc.com.git (dev branch)
+	
+4. open httpd.conf and change the doc root to new one which is created 2nd step - remote_file 
+	- timeout 150sec
+
+5. start, Enable & Reload  the apache - service 
+
 ## 1. Create a cookbook-
 
 cd /etc/chef-repo/cookbooks
